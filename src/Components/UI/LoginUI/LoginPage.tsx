@@ -3,6 +3,7 @@ import './LoginPage.css';
 import TrelloLogo from '../../../assets/trello-logo.png';
 import LoginInput from './LoginInput';
 import SocialLogin from './SocialLogin';
+import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
   return (
@@ -21,9 +22,11 @@ const LoginPage = () => {
               <span className='text-sm text-primary cursor-pointer'>
                 Forgot Password ?
               </span>
-              <span className='text-sm text-primary cursor-pointer'>
-                Sign up for an account
-              </span>
+              <Link to='/signup'>
+                <span className='text-sm text-primary cursor-pointer'>
+                  Sign up for an account
+                </span>
+              </Link>
             </div>
           </div>
         </div>
