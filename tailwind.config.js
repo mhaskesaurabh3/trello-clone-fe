@@ -8,6 +8,7 @@ export default {
       },
       colors: {
         'btn-green': '#5AAC44',
+        primary: 'rgb(12,98,220)',
       },
     },
   },
